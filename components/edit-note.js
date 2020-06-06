@@ -24,7 +24,7 @@ const EditNoteForm = ({ note = {} }) => {
           dialogRef.current.removeAttribute('open')
         })}
       >
-        <h3>Edit Note</h3>
+        <h3>Edit Item</h3>
         <label htmlFor="titleInput">
           Title:
           <input
@@ -36,7 +36,7 @@ const EditNoteForm = ({ note = {} }) => {
         </label>
         <br />
         <label htmlFor="contentInput">
-          Content:
+          Description:
           <textarea
             name="content"
             id="contentInput"

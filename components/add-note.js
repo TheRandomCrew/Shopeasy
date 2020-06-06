@@ -13,7 +13,7 @@ const AddNoteForm = () => {
 
   return (
     <form onSubmit={handleSubmit((data) => dispatch(addNote(data)))}>
-      <h3>Create a Note</h3>
+      <h3>Add Item:</h3>
       <label htmlFor="titleText">
         Title:
         <input type="text" name="title" id="titleText" />
@@ -22,13 +22,13 @@ const AddNoteForm = () => {
       {'title' in (error || {}) && <small>{error.title}</small>}
       <br />
       <label htmlFor="contentText">
-        Content:
+        Description:
         <textarea name="content" id="contentText"></textarea>
       </label>
       <br />
       {'content' in (error || {}) && <small>{error.content}</small>}
       <br />
-      <button type="submit">Add note</button>
+      <button type="submit">Add Item</button>
       <br />
       {typeof error === 'string' && <small>{error}</small>}
     </form>

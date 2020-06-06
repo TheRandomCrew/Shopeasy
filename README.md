@@ -27,6 +27,8 @@
   </p>
 </p>
 
+# [Live Here!](https://shopeasy.now.sh/) (Work In Progress)
+
 ## Table of Contents
 
 1. [The Project](#the-project)
@@ -91,7 +93,7 @@ yarn dev
 
 The app should now be up and running at http://localhost:3000 🚀
 
-# Author
+# Authors
 
 <table style="width:100%">
   <tr>

@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux'
 
+import Link from 'next/link'
 import Clock from '../components/clock'
 import Counter from '../components/counter'
 import { tick } from '../lib/slices/clockSlice'
@@ -14,8 +15,15 @@ const IndexPage = () => {
 
   return (
     <>
+      <h1>Shopeasy Coming Soon!</h1>
       <Clock />
       <Counter />
+      <p>Take Notes on what items you want to shop when we open!</p>
+      <Link href="/notes">
+        <a>
+          Here!
+        </a>
+      </Link>
     </>
   )
 }

@@ -43,11 +43,11 @@ const Notes = () => {
   return (
     <>
       <Head>
-        <title>Next.js with Redux Toolkit | Notes App</title>
+        <title>Shop List</title>
       </Head>
       <AddNoteForm />
       <hr />
-      <h3>All Notes</h3>
+      <h3>Your Shop list:</h3>
       <ul>{notes.map(renderNote)}</ul>
       <EditNoteForm note={selectedNote} />
     </>
