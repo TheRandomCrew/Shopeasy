@@ -1,7 +1,7 @@
 import { nSQL } from '@nano-sql/core'
 
 const connectMiddleware = (handler) => async (req, res) => {
-  const dbName = 'with-redux-toolkit'
+  const dbName = 'shopeasy'
 
   if (!nSQL().listDatabases().includes(dbName)) {
     await nSQL().createDatabase({

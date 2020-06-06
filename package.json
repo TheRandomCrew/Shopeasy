@@ -1,6 +1,13 @@
 {
   "name": "shopeasy",
-  "version": "0.1.0",
+  "description": "E-Commerce solution",
+  "directories": {
+    "lib": "./lib",
+    "pages": "./pages",
+    "components": "./components",
+    "doc": "./doc"
+  },
+  "version": "0.1.2",
   "scripts": {
     "dev": "next",
     "build": "next build",
