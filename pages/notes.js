@@ -20,7 +20,7 @@ const Notes = () => {
   }, [dispatch])
 
   const renderNote = (note) => (
-    <li key={note.id}>
+    <li key={note.id} className="list">
       <strong>{note.title}</strong>
       <br />
       <span>{note.content}</span>
@@ -41,7 +41,7 @@ const Notes = () => {
   )
 
   return (
-    <>
+    <div>
       <Head>
         <title>Shop List</title>
       </Head>
@@ -50,7 +50,26 @@ const Notes = () => {
       <h3>Your Shop list:</h3>
       <ul>{notes.map(renderNote)}</ul>
       <EditNoteForm note={selectedNote} />
-    </>
+      <style jsx>
+        {`
+          div {
+            background: #CBEBEE;
+            height: 100vh;
+        }
+          hr {
+            color: silver;
+          }
+          h3 {
+            font-size: 30px;
+            text-align: center;
+          }
+          .list {
+            display: flex;
+            justify-content: space-around;
+          }
+        `}
+      </style>
+    </div>
   )
 }
 
