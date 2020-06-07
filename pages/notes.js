@@ -2,6 +2,7 @@ import Dynamic from 'next/dynamic'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import style from './notes.module.css'
 
 import AddNoteForm from '../components/add-note'
 import { deleteNote, loadNotes, selectNotes } from '../lib/slices/notesSlice'
@@ -20,7 +21,7 @@ const Notes = () => {
   }, [dispatch])
 
   const renderNote = (note) => (
-    <li key={note.id} className="list">
+    <li key={note.id} className={style.list}>
       <strong>{note.title}</strong>
       <br />
       <span>{note.content}</span>
@@ -55,17 +56,13 @@ const Notes = () => {
           div {
             background: #CBEBEE;
             height: 100vh;
-        }
+          }
           hr {
             color: silver;
           }
           h3 {
             font-size: 30px;
             text-align: center;
-          }
-          .list {
-            display: flex;
-            justify-content: space-around;
           }
         `}
       </style>
