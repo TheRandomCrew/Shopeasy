@@ -1,6 +1,7 @@
-import { useSelector } from 'react-redux'
+import { useSelector } from 'react-redux';
 
-import { selectClock } from '../lib/slices/clockSlice'
+import { selectClock } from '../lib/slices/clockSlice';
+
 
 const formatTime = (time) => {
   // cut off except hh:mm:ss
@@ -17,13 +18,16 @@ const Clock = () => {
         div {
           padding: 15px;
           display: inline-block;
-          color: #82fa58;
+          color: #F76100;
           font: 50px menlo, monaco, monospace;
-          background-color: #000;
+          border-radius: 20px;
+          background: linear-gradient(145deg, #d6f9fd, #b4d2d4);
+          box-shadow:  20px 20px 30px #aac6c9, 
+          -20px -20px 30px #e6ffff;
         }
 
         .light {
-          background-color: #999;
+          background-color: silver;
         }
       `}</style>
     </div>
