@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux'
 
 import store from '../lib/store'
-import './reset.css'
+import './css/reset.css'
 
 
 const MyApp = ({ Component, pageProps }) => {

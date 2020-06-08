@@ -2,7 +2,7 @@ import Dynamic from 'next/dynamic'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import style from './notes.module.css'
+import style from './css/notes.module.css'
 
 import AddNoteForm from '../components/add-note'
 import { deleteNote, loadNotes, selectNotes } from '../lib/slices/notesSlice'

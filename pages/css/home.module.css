@@ -1,0 +1,16 @@
+.headSect {
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  min-width: 90%;
+}
+
+.headSect img {
+  max-width: 700px;
+  height: auto;
+  transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.headSect h1 {
+  font-size: 42px;
+}
