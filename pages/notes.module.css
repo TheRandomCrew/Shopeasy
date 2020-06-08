@@ -1,0 +1,50 @@
+.wrapper {
+  background: #CBEBEE;
+  min-height: 100vh;
+}
+.shopHead {
+  font-size: 30px;
+  text-align: center;
+}
+
+.list {
+  background: linear-gradient(145deg, #d6f9fd, #b4d2d4);
+  box-shadow: 3px 3px 4px 0 #e6ffff, -3px -3px 4px 0 #aac6c9;
+  transition: .1s all ease-in-out;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+  padding: 5px;
+  border-top: 1px solid silver;
+}
+
+.list:hover {
+  box-shadow: inset 3px 3px 2.5px 0 #e6ffff, inset -3px -3px 2.5px 0 #aac6c9;
+}
+
+.list button {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+
+.list strong {
+  color: brown;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.list span {
+  font-size: 20px;
+  word-break: break-all;
+  padding: 0 10px;
+}
+
+@media (max-width: 800px) {
+.list {
+  flex-direction: column;
+}
+}
