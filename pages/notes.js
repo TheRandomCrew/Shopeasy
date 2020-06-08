@@ -42,30 +42,14 @@ const Notes = () => {
   )
 
   return (
-    <div>
+    <div className={style.wrapper}>
       <Head>
         <title>Shop List</title>
       </Head>
       <AddNoteForm />
-      <hr />
-      <h3>Your Shop list:</h3>
+      <h3 className={style.shopHead}>Your Shop list:</h3>
       <ul>{notes.map(renderNote)}</ul>
       <EditNoteForm note={selectedNote} />
-      <style jsx>
-        {`
-          div {
-            background: #CBEBEE;
-            height: 100vh;
-          }
-          hr {
-            color: silver;
-          }
-          h3 {
-            font-size: 30px;
-            text-align: center;
-          }
-        `}
-      </style>
     </div>
   )
 }

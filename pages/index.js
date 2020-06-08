@@ -29,7 +29,7 @@ const IndexPage = () => {
       <style jsx>{`
         div {
           background: #CBEBEE;
-          height: 100vh;
+          min-height: 100vh;
           margin: 0;
           display: flex;
           flex-direction: column;
@@ -42,14 +42,21 @@ const IndexPage = () => {
         }
         a {
           border-radius: 15px;
-          background: #5924B0;
-          padding: 10px;
-          font-size: 25px;
+          background: linear-gradient(145deg, #d6f9fd, #b4d2d4);
+          padding: 10px 20px;
+          font-size: 30px;
           margin-bottom: 50px;
-          color: #fff;
+          color: gray;
           text-transform: uppercase;
           text-decoration: none;
-          border: 3px solid gray;
+          box-shadow: 6px 6px 16px 0 #e6ffff, -6px -6px 16px 0 #aac6c9;
+          transition: .1s all ease-in-out;
+          border: 1px solid #aac6c9;
+        }
+        
+        a:hover {
+          box-shadow: inset 6px 6px 5px 0 #e6ffff, inset -6px -6px 5px 0 #aac6c9;
+          color: #000;
         }
       `}
       </style>

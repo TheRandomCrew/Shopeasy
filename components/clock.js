@@ -22,8 +22,8 @@ const Clock = () => {
           font: 50px menlo, monaco, monospace;
           border-radius: 20px;
           background: linear-gradient(145deg, #d6f9fd, #b4d2d4);
-          box-shadow:  20px 20px 30px #aac6c9, 
-          -20px -20px 30px #e6ffff;
+          box-shadow:  10px 10px 30px #aac6c9, 
+          -10px -10px 30px #e6ffff;
         }
 
         .light {
