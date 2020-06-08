@@ -41,12 +41,12 @@ const AddNoteForm = () => {
             padding-top: 10px;
           }
           textarea, input {
-            margin-top: 10px;
-            width: 98%;
+            margin: 10px auto 0 auto;
+            width: 93%;
             padding: 5px;
             font-size: 20px;
             border-radius: 12px;
-            box-shadow: 3px 3px 8px 0 #e6ffff, -3px -3px 8px 0 #aac6c9, inset 6px 6px 5px 0 #e6ffff, inset -6px -6px 5px 0 #aac6c9;
+            box-shadow: 3px 3px 4px 0 #e6ffff, -3px -3px 4px 0 #aac6c9, inset 6px 6px 2px 0 #e6ffff, inset -6px -6px 2px 0 #aac6c9;
             border: 2px solid #aac6c9;
             color: gray;
             transition: .1s all ease-in-out;
