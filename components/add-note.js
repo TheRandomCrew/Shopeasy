@@ -36,7 +36,7 @@ const AddNoteForm = () => {
           form {
             max-width: 400px;
             min-width: 300px;
-            margin: auto;
+            margin: 0 auto 10px auto;
             font-size: 20px;
             padding-top: 10px;
           }
@@ -52,14 +52,15 @@ const AddNoteForm = () => {
             transition: .1s all ease-in-out;
           }
           textarea:focus, input:focus {
-            box-shadow: 0 0 5px #009798;
+            border-width: 3px;
+            outline: none;
+            box-shadow: 1px 1px 3px 0 #e6ffff, -1px -1px 3px 0 #aac6c9, inset 3px 3px 2.3px 0 #e6ffff, inset -2px -2px 2.3px 0 #aac6c9;
           }
           button {
             background: linear-gradient(145deg, #d6f9fd, #b4d2d4);
             width: 220px;
             display: block;
             margin: 10px auto;
-            cursor: pointer;
             font-size: 25px;
             border-radius: 15px;
             padding: 5px;
@@ -68,11 +69,6 @@ const AddNoteForm = () => {
             text-decoration: none;
             box-shadow: 3px 3px 8px 0 #e6ffff, -3px -3px 8px 0 #aac6c9;
             transition: .1s all ease-in-out;
-            border: none;
-          }
-          button:focus {
-            border: none;
-            outline: none;
           }
           button:hover {
             box-shadow: inset 3px 3px 2.5px 0 #e6ffff, inset -3px -3px 2.5px 0 #aac6c9;

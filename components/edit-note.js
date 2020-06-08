@@ -47,6 +47,27 @@ const EditNoteForm = ({ note = {} }) => {
         <button type="submit">Edit</button>
         <br />
       </form>
+      <style jsx>
+        {
+          `
+          h3 {
+            text-align: center;
+            text-transform: uppercase;
+          }
+          form * {
+            margin-bottom: 5px;
+          }
+          button {
+            width: 60px;
+            margin: 5px auto;
+            display: block;
+            background: red;
+            color: #fff;
+            font-size: 17px;
+          }
+          `
+        }
+      </style>
     </dialog>
   )
 }
