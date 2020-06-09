@@ -109,6 +109,33 @@ The app should now be up and running at http://localhost:3000 🚀
         </h2>
       </div>
     </td>
+        <td>
+        <div align="center">
+            <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
+                <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
+                <h3>
+                    Send Email: <br/>
+                    <a href="mailto:ukejemichgolden@yahoo.com">
+                        ukejemichgolden@yahoo.com
+                    </a>
+                </h3>
+            </a>
+            <a href="https://www.linkedin.com/in/michgoldenukeje/" target="_blank" rel="author">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="My Linkedin" height="45px">
+                <h3>
+                    Connect on Linkedin
+                </h3>
+            </a>
+            <a href="https://github.com/mikenath223" target="_blank" rel="author">
+                <img src="https://img.icons8.com/color/48/000000/github--v1.png" 
+			style="border-radius: 10%" alt="My GitHub" height="45px"
+		>
+                <h3>
+                    View GitHub Profile
+                </h3>
+            </a>
+        </div>
+    </td>
   </tr>
   <tr>
     <td>
@@ -128,7 +155,7 @@ The app should now be up and running at http://localhost:3000 🚀
             <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
                 <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
                 <h3>
-                    Email me to 
+                    Send Email: <br/>
                     <a href="mailto:israellaguan@gmail.com">
                         israellaguan@gmail.com
                     </a>
@@ -137,7 +164,7 @@ The app should now be up and running at http://localhost:3000 🚀
             <a href="https://www.linkedin.com/in/israellaguan/" target="_blank" rel="author">
                 <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="My Linkedin" height="45px">
                 <h3>
-                    Connect to my Linkedin
+                    Connect on Linkedin
                 </h3>
             </a>
             <a href="https://github.com/Israel-Laguan" target="_blank" rel="author">
@@ -145,7 +172,7 @@ The app should now be up and running at http://localhost:3000 🚀
 			style="border-radius: 10%" alt="My GitHub" height="45px"
 		>
                 <h3>
-                    Check my GitHub Profile
+                    View GitHub Profile
                 </h3>
             </a>
         </div>
