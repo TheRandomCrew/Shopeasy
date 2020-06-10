@@ -1,16 +1,97 @@
+.wrap {
+  background: url(https://www.frontendmentor.io/static/images/bg-layer-2.svg) no-repeat center bottom;
+}
+
 .headSect {
   display: flex;
   justify-content: space-between;
-  max-width: 60%;
-  min-width: 90%;
+  align-items: center;
+  max-width: 1000px;
+  margin: 50px 40px 0 auto;
 }
 
 .headSect img {
-  max-width: 700px;
+  max-width: 650px;
   height: auto;
-  transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  opacity: 0;
+  transform: translateX(20%);
+  animation: slideLeft 1.2s forwards 0.6s linear;
+}
+
+.headSect div * {
+  animation: slideRight 1.2s forwards 0.6s linear;
 }
 
 .headSect h1 {
-  font-size: 42px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateX(-20%);
+}
+
+.headSect p {
+  font-size: 20px;
+  position: relative;
+}
+
+.headSect p:after {
+  content: '';
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  width: 40px;
+  height: 0;
+  border: 1px solid #000;
+  animation: slideRight 1.2s forwards 0.6s linear;
+}
+
+.headSect div {
+  width: 45%;
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 1124px) {
+  .wrap {
+    background-position-y: top;
+  }
+  .headSect {
+    margin-left: 25px;
+    margin-right: 20px;
+  }
+  .headSect div * {
+    margin-left: 250px;
+  }
+  .headSect h1 {
+    font-size: 45px;
+  }
+  .headSect p {
+    font-size: 15px;
+  }
+  .headSect p:after {
+    left: 75%;
+  }
+  .headSect img {
+    max-width: 480px;
+  }
 }
