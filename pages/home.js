@@ -10,12 +10,14 @@ const Home = () => {
             <img src='/icon-bag.png' alt="" />
             <h2>Bag(0000)</h2>
           </div>
-          <h1>ShopEasy<img src='/icon-dot.png' alt="" /></h1>
+          <div className={style.headWrap}>
+            <h1>ShopEasy</h1>
+            <img src='/icon-dot.png' alt="" />
+          </div>
           <ul>
             <li>Men</li>
             <li>Women</li>
             <li>Kids</li>
-            <li></li>
           </ul>
         </nav>
         <section className={style.headSect}>
