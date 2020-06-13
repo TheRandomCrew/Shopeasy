@@ -1,13 +1,73 @@
 .wrap {
   background: url(https://www.frontendmentor.io/static/images/bg-layer-2.svg) no-repeat center bottom;
+  background-size: contain;
+}
+
+.wrap nav ul,
+.wrap nav,
+.wrap .bag,
+.headSect {
+  display: flex;
+}
+
+.wrap nav {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap nav ul {
+  justify-content: space-around;
+  width: 30%;
+}
+
+
+.wrap nav h2 {
+  font-size: calc(14px + (27 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.wrap nav h1 {
+  font-size: calc(14px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin-left: calc(14px + (150 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.wrap nav h1 img {
+  max-width: 20px;
+  height: auto;
+}
+
+.wrap nav ul {
+  font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+.wrap .bag {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  height: 100%;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap .bag img {
+  max-width: 20px;
+  height: auto;
 }
 
 .headSect {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
-  margin: 50px 40px 0 auto;
+  margin: 120px 40px 0 auto;
 }
 
 .headSect img {
@@ -16,6 +76,11 @@
   opacity: 0;
   transform: translateX(20%);
   animation: slideLeft 1.2s forwards 0.6s linear;
+}
+
+.headSect div {
+  width: 350px;
+  margin-left: auto;
 }
 
 .headSect div * {
@@ -45,10 +110,6 @@
   animation: slideRight 1.2s forwards 0.6s linear;
 }
 
-.headSect div {
-  width: 45%;
-}
-
 @keyframes slideLeft {
   from {
     opacity: 0;
@@ -72,15 +133,12 @@
 }
 
 @media (max-width: 1124px) {
-  .wrap {
-    background-position-y: top;
-  }
   .headSect {
     margin-left: 25px;
     margin-right: 20px;
   }
-  .headSect div * {
-    margin-left: 250px;
+  .headSect div {
+    width: 220px;
   }
   .headSect h1 {
     font-size: 45px;
@@ -93,5 +151,23 @@
   }
   .headSect img {
     max-width: 480px;
+  }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 900px) {}
+
+@media (max-width: 700px) {}
+
+@media (max-width: 561px) {
+  .headSect {
+    flex-direction: column-reverse;
+  }
+  .headSect div {
+    margin-right: auto;
+  }
+  .headSect img {
+    max-width: 330px;
   }
 }

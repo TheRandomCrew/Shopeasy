@@ -6,7 +6,11 @@ const Home = () => {
     <div>
       <div className={style.wrap}>
         <nav>
-          <h1>ShopEasy</h1>
+          <div className={style.bag}>
+            <img src='/icon-bag.png' alt="" />
+            <h2>Bag(0000)</h2>
+          </div>
+          <h1>ShopEasy<img src='/icon-dot.png' alt="" /></h1>
           <ul>
             <li>Men</li>
             <li>Women</li>
