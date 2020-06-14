@@ -19,6 +19,7 @@ const Home = () => {
             <li>Women</li>
             <li>Kids</li>
           </ul>
+          <p>Login/Register</p>
         </nav>
         <section className={style.headSect}>
           <div>
@@ -28,7 +29,16 @@ const Home = () => {
           </div>
           <img src='/shoe-head.png' alt="stock-shoe" />
         </section>
+        <section className={style.unPlug}>
+          <h2>Unplug and connect to the outdoors with ShopEasy</h2>
+          <button type="button">
+            <span>SHOP NOW</span>
+          </button>
+        </section>
       </div>
+      <section className={style.vidWrap}>
+        <video src="/shoe-vid.mp4" autoPlay="true" loop="true"></video>
+      </section>
       <Footer />
     </div>
   )
