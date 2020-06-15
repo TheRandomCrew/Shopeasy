@@ -1,10 +1,25 @@
+import { useEffect } from 'react'
 import Footer from '../components/footer'
 import style from './css/home.module.css';
 
 const Home = () => {
+  const showShadow = () => {
+    window.onscroll = () => {
+      if (window.scrollY > 100) {
+        document.querySelector('.wrap nav').style.boxShadow = "0 15px 55px 15px rgba(0, 0, 0, 0.1)";
+      } else {
+        document.querySelector('.wrap nav').style.boxShadow = "none";
+      }
+    }
+  }
+
+  useEffect(() => {
+    showShadow();
+  }, [])
+
   return (
-    <div>
-      <div className={style.wrap}>
+    <>
+      <div className={`${style.wrap} wrap`}>
         <nav>
           <div className={style.bag}>
             <img src='/icon-bag.png' alt="" />
@@ -37,10 +52,17 @@ const Home = () => {
         </section>
       </div>
       <section className={style.vidWrap}>
-        <video src="/shoe-vid.mp4" autoPlay="true" loop="true"></video>
+        <video src="/shoe-vid.mp4" autoPlay={true} loop={true}></video>
+        <p>Come shop at the world's largest delears in running shoes.</p>
+        <div className={style.vidText}>
+          <h4>Good things come from those who run.</h4>
+          <button type="button">
+            <span>Experience Now!</span>
+          </button>
+        </div>
       </section>
       <Footer />
-    </div>
+    </>
   )
 }
 

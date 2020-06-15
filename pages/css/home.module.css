@@ -13,15 +13,15 @@
   top: 0;
   z-index: 4;
   height: 60px;
-  background-color: #fff;
-  border: 1px solid #000;
+  background-color: #C9DBEC;
+  border: 2px solid #fff;
   border-top-width: 0;
   border-left-width: 0;
   border-right-width: 0;
   width: 100vw;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 15px 55px 30px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.6s;
 }
 
 .wrap nav ul {
@@ -33,21 +33,18 @@
 }
 
 .wrap nav ul li {
-  border: 2px solid #000;
+  border: 2px solid rgb(183, 201, 216);
   border-bottom-width: 0px;
   height: 96%;
   justify-content: center;
   align-items: center;
   width: calc(100% / 3);
+  transition: 0.1s all ease-in-out;
+  box-shadow: inset 6px 6px 5px 0 rgb(224, 240, 253), inset -6px -6px 5px 0 #97B6D2;
 }
 
-.wrap nav p {
-  font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
-  background-color: silver;
-  height: 99%;
-  padding: 0 15px;
-  line-height: 2.5;
-  margin-right: 20px;
+.wrap nav ul li:hover {
+  box-shadow: 6px -10px 10px 0 rgb(224, 240, 253), -6px -10px 10px 0 #97B6D2;
 }
 
 .wrap nav ul li:not(:nth-child(odd)) {
@@ -73,6 +70,10 @@
   align-items: flex-end;
 }
 
+.wrap .headWrap h1, .wrap .bag, .wrap nav p, .wrap nav ul li {
+  cursor: pointer;
+}
+
 .wrap .headWrap img {
   margin-left: 1px;
   max-width: 15px;
@@ -80,18 +81,36 @@
   animation: dotRotate 1s forwards 0.6s linear;
 }
 
+.wrap .bag, .wrap nav p {
+  background: #C9DBEC;
+  border: 2px solid #fff;
+  box-shadow: inset 2px 2px 10px 0 rgb(224, 240, 253), inset -3px 3px 5px 0 #97B6D2;
+}
+
+.wrap nav p {
+  font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+  height: 99%;
+  padding: 0 15px;
+  line-height: 2.5;
+  margin-right: 20px;
+  box-shadow: inset 2px 2px 10px 0 #97B6D2, inset -3px 3px 5px 0 rgb(224, 240, 253);
+  border-top-left-radius: 20px;
+}
+
+.wrap nav p:hover {
+  box-shadow: 6px -8px 10px 0 rgb(152, 171, 187), -6px -10px 10px 0 #97B6D2;
+}
+
 .wrap .bag {
-  background-color: rgba(0, 0, 0, 0.9);
-  transition: background-color 1.5s, color 1s;
-  color: #fff;
   height: 100%;
   width: 15%;
   justify-content: center;
   align-items: center;
+  border-top-right-radius: 20px;
 }
 
 .wrap .bag:hover {
-  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 6px -2px 10px 0 #97B6D2, -6px -10px 10px 0 rgb(224, 240, 253);
 }
 
 .wrap .bag img {
@@ -197,7 +216,7 @@
   font-size: calc(14px + (38 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.unPlug button {
+.unPlug button, .vidText button {
   margin-left: 50%;
   position: relative;
   top: 50px;
@@ -270,6 +289,30 @@
   width: 100%;
 }
 
+.vidWrap .vidText, .vidWrap p {
+  position: absolute;
+  z-index: 5;
+  font-size: 40px;
+  color: #fff;
+}
+
+.vidWrap p {
+  top: 22%;
+  left: 80px;
+}
+
+.vidWrap .vidText {
+  top: 40%;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 300px;
+  padding-left: 80px;
+}
+
+.vidText button {
+  width: max-content;
+}
+
 @media (max-width: 1124px) {
   .headSect {
     margin-left: 25px;
@@ -317,5 +360,11 @@
   }
   .unPlug button {
     left: 50px;
+  }
+}
+
+@media (max-width: 325px) {
+  .unPlug button {
+    left: 0;
   }
 }
