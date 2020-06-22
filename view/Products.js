@@ -1,25 +1,15 @@
 import Dynamic from 'next/dynamic'
 import Head from 'next/head'
-import { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
 import style from './css/notes.module.css'
 
 import AddNoteForm from '../components/add-note'
-import { deleteNote, loadNotes, selectNotes } from '../lib/slices/notesSlice'
-
 const EditNoteForm = Dynamic(import('../components/edit-note'), { ssr: false })
-const Notes = () => {
-  const [selectedNote, setSelectedNote] = useState()
-  const dispatch = useDispatch()
-  const { notes } = useSelector(selectNotes)
 
-  useEffect(() => {
-    async function dispatchLoadNotes() {
-      await dispatch(loadNotes())
-    }
-    dispatchLoadNotes()
-  }, [dispatch])
-
+const Products = ({
+  onClickButton = () => {},
+  items = [],
+  selectedItem = {},
+}) => {
   const renderNote = (note) => (
     <li key={note.id} className={style.list}>
       <strong>{note.title}</strong>
@@ -28,12 +18,12 @@ const Notes = () => {
       <br />
       <button
         aria-label={`Delete note with title: ${note.title}`}
-        onClick={() => dispatch(deleteNote(note.id))}
+        onClick={() => onClickButton(note.id)}
       >
         🗑️
       </button>
       <button
-        onClick={() => setSelectedNote(note)}
+        onClick={() => onClickButton(note, 'edit')}
         aria-label={`Edit note with title: ${note.title}`}
       >
         ✏️
@@ -48,10 +38,10 @@ const Notes = () => {
       </Head>
       <AddNoteForm />
       <h3 className={style.shopHead}>Your Shop list:</h3>
-      <ul>{notes.map(renderNote)}</ul>
-      <EditNoteForm note={selectedNote} />
+      <ul>{items.map(renderNote)}</ul>
+      <EditNoteForm note={selectedItem} />
     </div>
   )
 }
 
-export default Notes
+export default Products
