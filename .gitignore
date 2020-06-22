@@ -34,7 +34,6 @@ node_modules/
 .env
 .env.test
 
-
 # Next.js build output
 .next
 
@@ -44,4 +43,4 @@ node_modules/
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-./db_**/**/*
+db_shopeasy/

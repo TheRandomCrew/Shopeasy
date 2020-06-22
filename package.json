@@ -1,6 +1,13 @@
 {
   "name": "shopeasy",
-  "version": "0.1.0",
+  "description": "E-Commerce solution",
+  "directories": {
+    "lib": "./lib",
+    "pages": "./pages",
+    "components": "./components",
+    "doc": "./doc"
+  },
+  "version": "0.2.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -24,14 +31,13 @@
     "hireable": true
   },
   "contributors": [
-		{
-			"name": "Michgolden Ukeje",
-			"email": "null",
-			"url": "null",
-			"contributions": 0,
-			"additions": 0,
-			"deletions": 0,
-			"hireable": true
-		}
-	]
+    {
+      "name": "Michgolden Ukeje",
+      "email": "ukejemichgolden@yahoo.com",
+      "url": "http://michgolden.netlify.com/",
+      "GitHub": "https://github.com/mikenath223",
+      "LinkedIn": "https://www.linkedin.com/in/michgoldenukeje/",
+      "hireable": true
+    }
+  ]
 }
