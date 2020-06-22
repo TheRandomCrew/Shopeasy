@@ -7,7 +7,7 @@
     "components": "./components",
     "doc": "./doc"
   },
-  "version": "0.1.2",
+  "version": "0.2.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -36,10 +36,7 @@
       "email": "ukejemichgolden@yahoo.com",
       "url": "http://michgolden.netlify.com/",
       "GitHub": "https://github.com/mikenath223",
-      "LinkedIn": "https://www.linkedin.com/in/michgoldenukeje/",  
-      "contributions": 0,
-      "additions": 0,
-      "deletions": 0,
+      "LinkedIn": "https://www.linkedin.com/in/michgoldenukeje/",
       "hireable": true
     }
   ]
