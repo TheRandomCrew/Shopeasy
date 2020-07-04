@@ -336,6 +336,34 @@
   animation: animate_blob_1 30s cubic-bezier(0.75, 0.82, 0.165, 1) infinite;
 }
 
+.footer {
+  height: 150px;
+  display: flex;
+  place-items: center;
+}
+
+.footer nav {
+  width: 100%;
+}
+
+.footer nav h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.footer ul {
+  font-size: 17px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul li {
+  cursor: pointer;
+}
+
 @keyframes animate_blob_1 {
   0% {
     border-radius: 51% 49% 19% 81% / 51% 74% 26% 49%;
