@@ -11,7 +11,7 @@
 .wrap nav {
   position: fixed;
   top: 0;
-  z-index: 4;
+  z-index: 10;
   height: 60px;
   background-color: #C9DBEC;
   border: 2px solid #fff;
@@ -91,8 +91,9 @@
   font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
   height: 99%;
   padding: 0 15px;
-  line-height: 2.5;
+  line-height: 3.3;
   margin-right: 20px;
+  font-weight: 700;
   box-shadow: inset 2px 2px 10px 0 #97B6D2, inset -3px 3px 5px 0 rgb(224, 240, 253);
   border-top-left-radius: 20px;
 }
@@ -103,7 +104,8 @@
 
 .wrap .bag {
   height: 100%;
-  width: 15%;
+  width: 13%;
+  margin-left: 20px;
   justify-content: center;
   align-items: center;
   border-top-right-radius: 20px;
@@ -126,7 +128,7 @@
 }
 
 .headSect img {
-  max-width: 650px;
+  max-width: calc(300px + (650 - 300) * ((100vw - 300px) / (1600 - 300)));
   height: auto;
   opacity: 0;
   transform: translateX(20%);
@@ -217,26 +219,25 @@
 }
 
 .unPlug button, .vidText button {
-  margin-left: 50%;
   position: relative;
   top: 50px;
-  left: 150px;
+  left: 60%;
   padding: 15px 20px;
   border-radius: 5px;
   overflow: hidden;
   background-color: #000;
   color: #fff;
-  border: 2px solid #fff;
+  border: 4px solid #F9C7C5;
   font-size: calc(14px + (34 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.unPlug button span {
+.unPlug button span, .vidText button span {
   position: relative;
   z-index: 3;
   transition: color 0.3s;
 }
 
-.unPlug button:before {
+.unPlug button:before, .vidText button:before {
   content: '';
   position: absolute;
   top: 0;
@@ -253,11 +254,11 @@
   transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
 }
 
-.unPlug button:hover {
+.unPlug button:hover, .vidText button:hover {
   border-color: gray;
 }
 
-.unPlug button:hover::before {
+.unPlug button:hover::before, .vidText button:hover::before {
   background-color: #fff;
   opacity: 1;
   z-index: 2;
@@ -266,8 +267,16 @@
   transition-timing-function: cubic-bezier(.2, 1, .3, 1);
 }
 
-.unPlug button:hover span {
+.unPlug button:hover span, .vidText button:hover span {
   color: #000;
+}
+
+.vidText button:before {
+  z-index: 7;
+}
+
+.vidText button span {
+  z-index: 7;
 }
 
 .vidWrap {
@@ -292,7 +301,7 @@
 .vidWrap .vidText, .vidWrap p {
   position: absolute;
   z-index: 5;
-  font-size: 40px;
+  font-size: calc(14px + (40 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: #fff;
 }
 
@@ -303,6 +312,7 @@
 
 .vidWrap .vidText {
   top: 40%;
+  left: 30%;
   display: flex;
   flex-direction: column-reverse;
   height: 300px;
@@ -311,6 +321,40 @@
 
 .vidText button {
   width: max-content;
+  top: -50%;
+  font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  width: 300px;
+  height: 200px;
+  z-index: -1;
+  background-color: rgba(249, 199, 197, 0.5);
+  animation: animate_blob_1 30s cubic-bezier(0.75, 0.82, 0.165, 1) infinite;
+}
+
+@keyframes animate_blob_1 {
+  0% {
+    border-radius: 51% 49% 19% 81% / 51% 74% 26% 49%;
+  }
+  20% {
+    border-radius: 15% 85% 57% 43% / 69% 48% 52% 31%;
+  }
+  40% {
+    border-radius: 66% 34% 44% 56% / 33% 19% 81% 67%;
+  }
+  60% {
+    border-radius: 23% 77% 67% 33% / 11% 77% 23% 89%;
+  }
+  80% {
+    border-radius: 48% 52% 76% 24% / 46% 13% 87% 54%;
+  }
+  100% {
+    border-radius: 51% 49% 19% 81% / 51% 74% 26% 49%;
+  }
 }
 
 @media (max-width: 1124px) {
@@ -330,16 +374,29 @@
   .headSect p:after {
     left: 75%;
   }
-  .headSect img {
-    max-width: 480px;
+}
+
+@media (max-width: 1024px) {
+  .vidWrap .vidText {
+    height: 200px;
   }
 }
 
-@media (max-width: 1024px) {}
-
 @media (max-width: 900px) {}
 
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+  .vidWrap .vidText {
+    left: 20%;
+    height: 140px;
+    padding-left: 40px;
+    display: none;
+  }
+  .vidText button {
+    left: 60%;
+    display: none;
+    padding: 10px;
+  }
+}
 
 @media (max-width: 561px) {
   .headSect {

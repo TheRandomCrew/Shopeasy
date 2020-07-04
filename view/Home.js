@@ -53,12 +53,13 @@ const Home = () => {
       </div>
       <section className={style.vidWrap}>
         <video src="/shoe-vid.mp4" autoPlay={true} loop={true}></video>
-        <p>Come shop at the world's largest delears in running shoes.</p>
+        <p>Come shop at the world's largest dealer in running shoes.</p>
         <div className={style.vidText}>
           <h4>Good things come from those who run.</h4>
           <button type="button">
             <span>Experience Now!</span>
           </button>
+          <div className={style.blob}></div>
         </div>
       </section>
       <Footer />
