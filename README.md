@@ -110,30 +110,31 @@ The app should now be up and running at http://localhost:3000 🚀
       </div>
     </td>
         <td>
-        <div align="center">
-            <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
-                <h3>
-                    Send Email: <br/>
-                    <a href="mailto:ukejemichgolden@yahoo.com">
-                        ukejemichgolden@yahoo.com
-                    </a>
-                </h3>
+	<div align="center">
+            <a href="mailto:ukejemichgolden@yahoo.com" target="_blank" rel="author">
+                <img src="https://img.icons8.com/color/48/000000/message-squared.png" alt="My GitHub" height="45px">
             </a>
+            <h3>
+                <a href="mailto:ukejemichgolden@yahoo.com" target="_blank" rel="author">
+                    Email me to israellaguan@gmail.com
+                </a>
+            </h3>
             <a href="https://www.linkedin.com/in/michgoldenukeje/" target="_blank" rel="author">
                 <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="My Linkedin" height="45px">
-                <h3>
-                    Connect on Linkedin
-                </h3>
             </a>
+            <h3>
+                <a href="https://www.linkedin.com/in/michgoldenukeje/" target="_blank" rel="author">
+                    Connect to my Linkedin
+                </a>
+            </h3>
             <a href="https://github.com/mikenath223" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/github--v1.png" 
-			style="border-radius: 10%" alt="My GitHub" height="45px"
-		>
-                <h3>
-                    View GitHub Profile
-                </h3>
+                <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="My GitHub" height="45px">
             </a>
+            <h3>
+                <a href="https://github.com/mikenath223" target="_blank" rel="author">
+                    Check my GitHub Profile
+                </a>
+            </h3>
         </div>
     </td>
   </tr>
@@ -153,28 +154,29 @@ The app should now be up and running at http://localhost:3000 🚀
     <td>
         <div align="center">
             <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
-                <h3>
-                    Send Email: <br/>
-                    <a href="mailto:israellaguan@gmail.com">
-                        israellaguan@gmail.com
-                    </a>
-                </h3>
+                <img src="https://img.icons8.com/color/48/000000/message-squared.png" alt="My GitHub" height="45px">
             </a>
+            <h3>
+                <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
+                    Email me to israellaguan@gmail.com
+                </a>
+            </h3>
             <a href="https://www.linkedin.com/in/israellaguan/" target="_blank" rel="author">
                 <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="My Linkedin" height="45px">
-                <h3>
-                    Connect on Linkedin
-                </h3>
             </a>
+            <h3>
+                <a href="https://www.linkedin.com/in/israellaguan/" target="_blank" rel="author">
+                    Connect to my Linkedin
+                </a>
+            </h3>
             <a href="https://github.com/Israel-Laguan" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/github--v1.png" 
-			style="border-radius: 10%" alt="My GitHub" height="45px"
-		>
-                <h3>
-                    View GitHub Profile
-                </h3>
+                <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="My GitHub" height="45px">
             </a>
+            <h3>
+                <a href="https://github.com/Israel-Laguan" target="_blank" rel="author">
+                    Check my GitHub Profile
+                </a>
+            </h3>
         </div>
     </td>
   </tr>
