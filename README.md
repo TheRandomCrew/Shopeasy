@@ -109,14 +109,14 @@ The app should now be up and running at http://localhost:3000 🚀
         </h2>
       </div>
     </td>
-        <td>
-	<div align="center">
+    <td>
+        <div align="center">
             <a href="mailto:ukejemichgolden@yahoo.com" target="_blank" rel="author">
                 <img src="https://img.icons8.com/color/48/000000/message-squared.png" alt="My GitHub" height="45px">
             </a>
             <h3>
                 <a href="mailto:ukejemichgolden@yahoo.com" target="_blank" rel="author">
-                    Email me to israellaguan@gmail.com
+                    Send Email:<br>ukejemichgolden@yahoo.com
                 </a>
             </h3>
             <a href="https://www.linkedin.com/in/michgoldenukeje/" target="_blank" rel="author">
@@ -158,7 +158,7 @@ The app should now be up and running at http://localhost:3000 🚀
             </a>
             <h3>
                 <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
-                    Email me to israellaguan@gmail.com
+                    Send Email:<br>israellaguan@gmail.com
                 </a>
             </h3>
             <a href="https://www.linkedin.com/in/israellaguan/" target="_blank" rel="author">
