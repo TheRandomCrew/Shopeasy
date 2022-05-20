@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues-open][issues-open-shield]][issues-url]
@@ -31,13 +32,17 @@
 
 ## Table of Contents
 
-1. [The Project](#the-project)
-2. [Features](#features)
-3. [Run It](#run-it)
-4. [Author](#author)
-5. [Contributing](#contributing)
-6. [Show your support](#show-your-support)
-7. [License](#license)
+- [Live Here! (Work In Progress)](#live-here-work-in-progress)
+  - [Table of Contents](#table-of-contents)
+- [The Project](#the-project)
+- [Features](#features)
+- [Run It](#run-it)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [Authors](#authors)
+- [Contributing](#contributing)
+- [Show your support](#show-your-support)
+- [License](#license)
 
 # The Project
 
@@ -48,10 +53,10 @@ This is the early design for the web app.
 # Features
 
 [![Framework][badge-framework]][framework-url]
-![react][]
+[![][react]][react-url]
 [![Redux][badge-redux]][redux-url]
-![javascript][]
-![css][]
+[![][javascript]][javascript-url]
+[![][css]][css-url]
 
 - Using Next.js
 - No Style Framework, only pure CSS
@@ -178,7 +183,7 @@ The app should now be up and running at http://localhost:3000 🚀
         </div>
     </td>
   </tr>
-</table> 
+</table>
 
 # Contributing
 
@@ -203,6 +208,7 @@ Icons from:
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/Shopeasy?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/Shopeasy/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/Shopeasy?style=for-the-badge
@@ -221,3 +227,9 @@ Feel free to fork this project and improve it
 [react]: https://img.shields.io/badge/React-16+-61DAFB?style=for-the-badge&logo=react
 [javascript]: https://img.shields.io/badge/JAVASCRIPT-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript
 [css]: https://img.shields.io/badge/style-CSS-1572B6?style=for-the-badge&logo=css3
+
+<!-- URL -->
+
+[react-url]: https://reactjs.org/
+[css-url]: https://www.w3schools.com/css/
+[javascript-url]: https://devdocs.io/javascript/
