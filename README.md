@@ -95,90 +95,10 @@ The app should now be up and running at http://localhost:3000 🚀
 
 # Authors
 
-<table style="width:100%">
-  <tr>
-    <td>
-      <div align="center">
-        <a href="[./docs/img/photo.png](https://github.com/mikenath223)" target="_blank" rel="author">
-          <img src="https://avatars0.githubusercontent.com/u/33323077?s=460&&v=4" style="border-radius: 50%; min-width: 100px;" alt="meli castorena's Photo" width="200px">
-        </a>
-        <h2>
-          <a href="https://michgolden.netlify.com/" target="_blank" rel="author">
-              Michgolden Ukeje
-          </a>
-        </h2>
-      </div>
-    </td>
-        <td>
-        <div align="center">
-            <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
-                <h3>
-                    Send Email: <br/>
-                    <a href="mailto:ukejemichgolden@yahoo.com">
-                        ukejemichgolden@yahoo.com
-                    </a>
-                </h3>
-            </a>
-            <a href="https://www.linkedin.com/in/michgoldenukeje/" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="My Linkedin" height="45px">
-                <h3>
-                    Connect on Linkedin
-                </h3>
-            </a>
-            <a href="https://github.com/mikenath223" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/github--v1.png" 
-			style="border-radius: 10%" alt="My GitHub" height="45px"
-		>
-                <h3>
-                    View GitHub Profile
-                </h3>
-            </a>
-        </div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <div align="center">
-            <a href="./docs/img/photo.png" target="_blank" rel="author">
-                <img src="https://avatars2.githubusercontent.com/u/36519478?s=460&v=4" style="border-radius: 10%; min-width: 100px;" alt="Israel Laguan's Photo" width="200px">
-            </a>
-            <h2>
-                <a href="https://israel-laguan.github.io/" target="_blank" rel="author">
-                    Israel Laguan
-                </a>
-            </h2>
-        </div>
-    </td>
-    <td>
-        <div align="center">
-            <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
-                <h3>
-                    Send Email: <br/>
-                    <a href="mailto:israellaguan@gmail.com">
-                        israellaguan@gmail.com
-                    </a>
-                </h3>
-            </a>
-            <a href="https://www.linkedin.com/in/israellaguan/" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="My Linkedin" height="45px">
-                <h3>
-                    Connect on Linkedin
-                </h3>
-            </a>
-            <a href="https://github.com/Israel-Laguan" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/github--v1.png" 
-			style="border-radius: 10%" alt="My GitHub" height="45px"
-		>
-                <h3>
-                    View GitHub Profile
-                </h3>
-            </a>
-        </div>
-    </td>
-  </tr>
-</table> 
+<img src="https://avatars0.githubusercontent.com/u/33323077?s=460&&v=4" style="border-radius: 50%; min-width: 100px;" alt="meli castorena's Photo" width="200px"> <br> <br> [Michgolden Ukeje][michgolden-webpage] | ![Mail photo][mail-photo] <br> Send Email: <br> [ukejemichgolden@yahoo.com][michgolden-email] <br> <br> ![Linkedin photo][linkedin-photo] <br> Connect on [Linkedin][michgolden-likedin] <br> <br> ![Github photo][github-logo] <br> View [Github profile][michgolden-github] |
+:----------: | :----------: |
+<img src="https://avatars2.githubusercontent.com/u/36519478?s=460&v=4" style="border-radius: 10%; min-width: 100px;" alt="Israel Laguan's Photo" width="200px"> <br> <br> **[Israel Laguan][israel-webpage]** | ![Mail photo][mail-photo] <br> **Send Email: <br> [israellaguan@gmail.com][israel-email]** <br> <br> ![Linkedin photo][linkedin-photo] <br> **Connect on [Linkedin][israel-linkedin]** <br> <br> ![Github photo][github-logo] <br> **View [Github profile][israel-github]** |
+
 
 # Contributing
 
@@ -203,6 +123,17 @@ Icons from:
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[michgolden-webpage]: https://michgolden.netlify.com/
+[michgolden-email]: mailto:ukejemichgolden@yahoo.com
+[michgolden-likedin]: https://www.linkedin.com/in/michgoldenukeje/
+[michgolden-github]: https://github.com/mikenath223
+[israel-webpage]: https://israel-laguan.github.io/
+[israel-email]: mailto:israellaguan@gmail.com
+[israel-linkedin]: https://www.linkedin.com/in/israellaguan/
+[israel-github]: https://github.com/Israel-Laguan
+[mail-photo]: https://img.icons8.com/color/48/000000/message-squared.png
+[linkedin-photo]: https://img.icons8.com/color/48/000000/linkedin.png
+[github-logo]: https://img.icons8.com/color/48/000000/github--v1.png
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/Shopeasy?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/Shopeasy/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/Shopeasy?style=for-the-badge
