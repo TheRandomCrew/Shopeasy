@@ -205,6 +205,17 @@ Icons from:
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[michgolden-webpage]: https://michgolden.netlify.com/
+[michgolden-email]: mailto:ukejemichgolden@yahoo.com
+[michgolden-likedin]: https://www.linkedin.com/in/michgoldenukeje/
+[michgolden-github]: https://github.com/mikenath223
+[israel-webpage]: https://israel-laguan.github.io/
+[israel-email]: mailto:israellaguan@gmail.com
+[israel-linkedin]: https://www.linkedin.com/in/israellaguan/
+[israel-github]: https://github.com/Israel-Laguan
+[mail-photo]: https://img.icons8.com/color/48/000000/message-squared.png
+[linkedin-photo]: https://img.icons8.com/color/48/000000/linkedin.png
+[github-logo]: https://img.icons8.com/color/48/000000/github--v1.png
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/Shopeasy?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/Shopeasy/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/Shopeasy?style=for-the-badge
