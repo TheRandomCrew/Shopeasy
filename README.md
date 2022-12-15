@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues-open][issues-open-shield]][issues-url]
@@ -31,13 +32,17 @@
 
 ## Table of Contents
 
-1. [The Project](#the-project)
-2. [Features](#features)
-3. [Run It](#run-it)
-4. [Author](#author)
-5. [Contributing](#contributing)
-6. [Show your support](#show-your-support)
-7. [License](#license)
+- [Live Here! (Work In Progress)](#live-here-work-in-progress)
+  - [Table of Contents](#table-of-contents)
+- [The Project](#the-project)
+- [Features](#features)
+- [Run It](#run-it)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [Authors](#authors)
+- [Contributing](#contributing)
+- [Show your support](#show-your-support)
+- [License](#license)
 
 # The Project
 
@@ -48,10 +53,10 @@ This is the early design for the web app.
 # Features
 
 [![Framework][badge-framework]][framework-url]
-![react][]
+[![][react]][react-url]
 [![Redux][badge-redux]][redux-url]
-![javascript][]
-![css][]
+[![][javascript]][javascript-url]
+[![][css]][css-url]
 
 - Using Next.js
 - No Style Framework, only pure CSS
@@ -95,10 +100,9 @@ The app should now be up and running at http://localhost:3000 🚀
 
 # Authors
 
-<img src="https://avatars0.githubusercontent.com/u/33323077?s=460&&v=4" style="border-radius: 50%; min-width: 100px;" alt="meli castorena's Photo" width="200px"> <br> <br> [Michgolden Ukeje][michgolden-webpage] | ![Mail photo][mail-photo] <br> Send Email: <br> [ukejemichgolden@yahoo.com][michgolden-email] <br> <br> ![Linkedin photo][linkedin-photo] <br> Connect on [Linkedin][michgolden-likedin] <br> <br> ![Github photo][github-logo] <br> View [Github profile][michgolden-github] |
-:----------: | :----------: |
-<img src="https://avatars2.githubusercontent.com/u/36519478?s=460&v=4" style="border-radius: 10%; min-width: 100px;" alt="Israel Laguan's Photo" width="200px"> <br> <br> **[Israel Laguan][israel-webpage]** | ![Mail photo][mail-photo] <br> **Send Email: <br> [israellaguan@gmail.com][israel-email]** <br> <br> ![Linkedin photo][linkedin-photo] <br> **Connect on [Linkedin][israel-linkedin]** <br> <br> ![Github photo][github-logo] <br> **View [Github profile][israel-github]** |
-
+| <img src="https://avatars0.githubusercontent.com/u/33323077?s=460&&v=4" style="border-radius: 50%; min-width: 100px;" alt="meli castorena's Photo" width="200px"> <br> <br> [Michgolden Ukeje][michgolden-webpage] | ![Mail photo][mail-photo] <br> Send Email: <br> [ukejemichgolden@yahoo.com][michgolden-email] <br> <br> ![Linkedin photo][linkedin-photo] <br> Connect on [Linkedin][michgolden-likedin] <br> <br> ![Github photo][github-logo] <br> View [Github profile][michgolden-github] |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   <img src="https://avatars2.githubusercontent.com/u/36519478?s=460&v=4" style="border-radius: 10%; min-width: 100px;" alt="Israel Laguan's Photo" width="200px"> <br> <br> **[Israel Laguan][israel-webpage]**    |  ![Mail photo][mail-photo] <br> **Send Email: <br> [israellaguan@gmail.com][israel-email]** <br> <br> ![Linkedin photo][linkedin-photo] <br> **Connect on [Linkedin][israel-linkedin]** <br> <br> ![Github photo][github-logo] <br> **View [Github profile][israel-github]**  |
 
 # Contributing
 
@@ -123,6 +127,7 @@ Icons from:
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [michgolden-webpage]: https://michgolden.netlify.com/
 [michgolden-email]: mailto:ukejemichgolden@yahoo.com
 [michgolden-likedin]: https://www.linkedin.com/in/michgoldenukeje/
@@ -152,3 +157,9 @@ Feel free to fork this project and improve it
 [react]: https://img.shields.io/badge/React-16+-61DAFB?style=for-the-badge&logo=react
 [javascript]: https://img.shields.io/badge/JAVASCRIPT-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript
 [css]: https://img.shields.io/badge/style-CSS-1572B6?style=for-the-badge&logo=css3
+
+<!-- URL -->
+
+[react-url]: https://reactjs.org/
+[css-url]: https://www.w3schools.com/css/
+[javascript-url]: https://devdocs.io/javascript/
